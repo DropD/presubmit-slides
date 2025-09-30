@@ -32,7 +32,7 @@ jobs:
         run: nci
 
       - name: Build
-        run: nr build --out ../dist/slides
+        run: nr build --out ../dist
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
