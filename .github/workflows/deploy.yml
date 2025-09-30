@@ -14,10 +14,6 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
-defaults:
-  run:
-    working-directory: ./pre-submitting-with-aiida
-
 jobs:
   build:
     runs-on: ubuntu-latest
